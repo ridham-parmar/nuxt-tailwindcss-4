@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@layer base {
+    *,
+    ::after,
+    ::before {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+}
+
+@layer utilities {
+    .wrapper {
+        @apply flex flex-col justify-center items-center gap-4;
+    }
+}
